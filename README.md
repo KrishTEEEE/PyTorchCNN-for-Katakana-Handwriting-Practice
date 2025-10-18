@@ -2,7 +2,9 @@
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
-**Project Description** - I have been learning Japanese on Duolingo for the past 6 months or so, and realized a problem with Duolingo's learning method: Duolingo separates language learning and handwriting: you learn your vocabulary and sentence patterns by reading, listening and placing blocks of characters, but you never have to write a character by hand. As a result, I am decent at reading Japanese characters, but if asked to write the character after hearing it, I forget a good number of them.
+I have been learning Japanese on Duolingo for the past 6 months or so, and realized a problem with Duolingo's learning method: **Not enough handwriting practice**. With a lot of Asian languages like Japanese, Chinese, Korean etc., their writing systems are entirely different from English, so it is necessary to put in time to learn how to write these characters. 
+
+Yet, there is relatively less practice on writing these characters, when you learn the characters, a stronger focus is how you read it with exercises like Multiple Choice or mix-and-match, where the characters are given already. These teach you how to recognize and read, but less so how to write it. As a result, I find myself being decent and reading the characters, but not very much so if I wanted to write something on blank paper.
 
 ## 📋 Table of Contents
 - [Features](#-features)
