@@ -1,9 +1,8 @@
 # CNN for Katakana Handwriting Practice
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
-**A brief description of your project** - what it does, why it's useful, and what makes it special.
+**Project Description** - I have been learning Japanese on Duolingo for the past 6 months or so, and realized a problem with Duolingo's learning method: Duolingo separates language learning and handwriting: you learn your vocabulary and sentence patterns by reading, listening and placing blocks of characters, but you never have to write a character by hand. As a result, I am decent at reading Japanese characters, but if asked to write the character after hearing it, I forget a good number of them.
 
 ## 📋 Table of Contents
 - [Features](#-features)
