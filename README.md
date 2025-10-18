@@ -1,6 +1,5 @@
 # CNN for Katakana Handwriting Practice
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
 ## Background
 I have been learning Japanese on Duolingo for the past 6 months or so, and realized a problem with Duolingo's learning method: **Not enough handwriting practice**. With a lot of Asian languages like Japanese, Chinese, Korean etc., their writing systems are entirely different from English, so it is necessary to put in time to learn how to write these characters. 
