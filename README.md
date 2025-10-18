@@ -14,7 +14,6 @@ In this project, a custom Convolutional Neural Network architecture was defined 
 The database has custom file formats and needs to be unpacked using the organization's provided Python Package, I then wrote a Python program that automates the process of reformatting the unpacked data into a PyTorch-compatible structure. The images are split into train, validation and test sets, then processed before feeding into the custom CNN for training. Dropout, data augmentation and early stopping were implemented to prevent overfitting. Since I am using a Mac, I used Apple's Metal Performance Shaders, its GPU framework (for Windows you can check if CUDA is available and use that) for acceleration.
 
 **If interested**
-
 The biggest challenge in this project was finding good data for training. The image sets found from Kaggle all had too little data, which causes severe overfitting even with data augmentation. If you are interested in the effect of sample number on the overfitting of a model, have a look at the HiraganaMLP notebook, where I was training a simpler Multi-Layer Perceptron Algorithm at the time on a Japanese database with 100 images per class, in contrast to the current CNN with 1300 images per class. I have evaluated its test results.
 
 ## CNN Architecture
