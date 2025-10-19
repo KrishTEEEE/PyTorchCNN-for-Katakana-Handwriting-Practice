@@ -2,7 +2,7 @@
 
 ## Description
 #### This repo is the core part of a larger project -  a Japanese Handwriting Practice Web App called Lingo Write. I have been learning Japanese for 8 months on Duolingo now, and I have realized that it could use more handwriting practice, since I find myself being decent at reading/ recognizing Japanese characters, but struggling to write some of them. The web app is an additional tool for you to practice your handwriting, and it gives you more control over the charcters you want to practice on, so you can focus on your weak points and get them right. It is almost complete (stay tuned).
-
+![Lingo Write](./Lingo%20Write.png)
 #### Here we will focus on handwriting recognition for Japanese characters.
 
 The Japanese language consists of 3 writing systems, Hiragana, Katakana and Kanji.
