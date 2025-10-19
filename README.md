@@ -8,7 +8,7 @@ I have been learning Japanese on Duolingo for the past 6 months or so, and reali
 
 Yet, there is relatively less practice on writing these characters. A stronger focus is put on how you read them, with exercises like Multiple Choice or Mix-and-Match where they are given. These teach you how to recognize and read, but less so how to write. As a result, I find myself being decent at reading the characters, but not very much so if I wanted to write something on blank paper.
 
-I want **more handwriting practice**, and I want to **customize the set of characters I want to learn**, so that I can double down on my weak points and practice more. Which was the motivation for this project.
+I want **more handwriting practice**, and I want to **customize the set of characters I want to learn**, so that I can double down on my weak points and practice more; Hence the motivation for the project - a **web app for language handwriting practice**. The web app is still under work, and this repo focuses on the backbone of the web app - the character recognition function, which I implemented using a Convolutional Neural Network.
 </details>
 
 ## Description
