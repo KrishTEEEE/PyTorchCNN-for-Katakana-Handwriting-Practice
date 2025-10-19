@@ -22,13 +22,8 @@ The biggest challenge in this project was finding good data for training. The im
 
 ## 🛠 Installation
 
-### Prerequisites
-- Python 3.8+
-- Node.js 16+
-- [Other dependencies]
-
 ### Quick Start
 
 **Using pip:**
 ```bash
-pip install your-package-name
+pip install torch numpy matplotlib matplotlib-inline torchvision
