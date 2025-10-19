@@ -1,24 +1,23 @@
 # CNN for Katakana Handwriting Practice
 
-
-<details>
-<summary><b>Background</b></summary>
-
-I have been learning Japanese on Duolingo for the past 6 months or so, and realized a problem with Duolingo's learning method: **Not enough handwriting practice**. With a lot of Asian languages like Japanese, Chinese, Korean etc., their writing systems are entirely different from English, so it is necessary to put in time to learn how to write these characters. 
-
-Yet, there is relatively less practice on writing these characters. A stronger focus is put on how you read them, with exercises like Multiple Choice or Mix-and-Match where they are given. These teach you how to recognize and read, but less so how to write. As a result, I find myself being decent at reading the characters, but not very much so if I wanted to write something on blank paper.
-
-I want **more handwriting practice**, and I want to **customize the set of characters I want to learn**, so that I can double down on my weak points and practice more; Hence the motivation for the project - a **web app for language handwriting practice**. The web app is still under work, and this repo focuses on the backbone of the web app - the character recognition function, which I implemented using a Convolutional Neural Network.
-</details>
-
 ## Description
-In this project, a custom Convolutional Neural Network architecture was defined and trained on the ETLCDB dataset (http://etlcdb.db.aist.go.jp/) for the purposes of recognizing handwritten Katakana characters for my Handwriting Practice Web App. 
+#### This repo is the core part of a larger project -  a Japanese Handwriting Practice Web App called Lingo Write. I have been learning Japanese for 8 months on Duolingo now, and I have realized that it could use more handwriting practice, since I find myself being decent at reading/ recognizing Japanese characters, but struggling to write some of them. The web app is an additional tool for you to practice your handwriting, and it gives you more control over the charcters you want to practice on, so you can focus on your weak points and get them right. It is almost complete (stay tuned).
+
+#### Here we will focus on handwriting recognition for Japanese characters.
+
+The Japanese language consists of 3 writing systems, Hiragana, Katakana and Kanji.
+
+In this project, I define a custom Convolutional Neural Network architecture and train it on the **ETLCDB dataset** (http://etlcdb.db.aist.go.jp/) for the purposes of recognizing handwritten Katakana characters. 
 
 The database has custom file formats and needs to be unpacked using the organization's provided Python Package, I then wrote a Python program that automates the process of reformatting the unpacked data into a PyTorch-compatible structure. The images are split into train, validation and test sets, then processed before feeding into the custom CNN for training. Dropout, data augmentation and early stopping were implemented to prevent overfitting. Since I am using a Mac, I used Apple's Metal Performance Shaders, its GPU framework (for Windows you can check if CUDA is available and use that) for acceleration.
 
-**If interested**
-The biggest challenge in this project was finding good data for training. The image sets found from Kaggle all had too little data, which causes severe overfitting even with data augmentation. If you are interested in the effect of sample number on the overfitting of a model, have a look at the HiraganaMLP notebook, where I was training a simpler Multi-Layer Perceptron Algorithm at the time on a Japanese database with 100 images per class, in contrast to the current CNN with 1300 images per class. I have evaluated its test results.
+*If interested:*
+ The biggest challenge in this project was finding good data for training. The image sets found from Kaggle all had too little data, which causes severe overfitting even with data augmentation. If you want to see a demonstration of the effect of sample number on model overfitting, have a look at the HiraganaMLP notebook, where I trained a simpler Multi-Layer Perceptron Algorithm on a Japanese database with 100 images per class, in contrast to the current CNN with 1300 images per class. I have evaluated its test results.
 
+## ETLCDB Database
+ *Database used: ETL6 Character Database, Electrotechnical Laboratory, Japanese Technical Committee for Optical Character Recognition, ETL Character Database, 1973-1984.*
+
+ This database consists of multiple groups of data, ranging from ETL1-ETL9, each having different types of characters, some with special characters, numbers etc., included. For more info on this database, have a look at the introduction in https://github.com/CaptainDario/ETLCDB_data_reader.
 ## CNN Architecture
 
 ## MLP Architecture
