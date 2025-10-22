@@ -46,6 +46,7 @@ class Net(nn.Module):
         return x
 ```
 ## MLP Architecture
+Used in Jupyter Notebook for demonstrating how small sample sizes cause overfitting.
 ```python
 class Network(nn.Module):
     def __init__(self):
