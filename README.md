@@ -66,9 +66,7 @@ class Network(nn.Module):
         return x
 ```
 
-## 🛠 Installation
-
-### Quick Start
+## Quick Start
 
 **Using pip:**
 ```bash
