@@ -19,7 +19,7 @@ The database has custom file formats and needs to be unpacked using the organiza
 
  This database consists of multiple groups of data, ranging from ETL1-ETL9, each having different types of characters, some with special characters, numbers etc., included. For more info on this database, have a look at the introduction in https://github.com/CaptainDario/ETLCDB_data_reader.
 ## CNN Architecture
-I have used 3 Convolutional Kernels with Maxpooling layers in between, and finally 2 Fully Connected Layers
+I have used 3 Convolutional Kernels with Maxpooling layers in between, and finally 2 Fully Connected Layers, around 573,000 parameters in total, which is considered to be on the smaller end for CNNs, meaning faster responses.
 ```python
 class Net(nn.Module):
     def __init__(self):
